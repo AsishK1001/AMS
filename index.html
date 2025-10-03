@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback Form</title>
+
+    <link rel="stylesheet" href="./css/feedback39.css">
+
+    <link rel="icon" href="./img/logo.jpg">
+
+</head>
+
+<body>
+
+    <div class="top">
+
+        <div class="logo">
+
+            <img src="./img/logo.jpg" height="90px" width="90px">
+
+        </div>
+
+        <div class="main">
+
+            Attendance Management System
+
+        </div>
+
+        <div class="nav">
+
+            <div><a href="./home.php">Home</a></div>
+
+            <div style="border-bottom: 3px solid black;border-right: 3px solid black;"><a href="./feedback.html" href="./feedback.html">Feedback</a></div>
+
+            <div><a href="./student.php">Student</a></div>
+
+            <div><a href="./login.html">Admin</a></div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <form id="feedbackForm" method="post" action="feedback.php">
+
+            <h2>Feedback</h2>
+
+            <input type="text" name="name" placeholder="Name" required>
+
+            <input type="email" name="email" placeholder="Email" required>
+
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="responseMessage" style="color: green; display: none;">Thank you for your feedback!</p>
+
+    </div>
+
+</body>
+
+
+
+
+
+</html>
