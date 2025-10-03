@@ -1,0 +1,216 @@
+body {
+    font-family: source-code-pro,Menlo,Monaco,Consolas,'Courier New',monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    font-weight: 600;
+}
+.login-container {
+    background: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 30%;                     
+}
+input {
+    width: 90%;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(73, 148, 223);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(4, 72, 139);
+  }
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.nav div{
+    font-size: 25px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 6px;
+}
+.nav a{
+    text-decoration:none;
+    color:white;
+}
+.nav div:hover {
+    background-color: rgb(255, 255, 255);
+}
+.nav a:hover {
+    color: black;
+}
+.a2 {
+    height:50px;
+    display:flex;
+    margin-top: 2px;
+}
+.s1 {
+    background-color:#00ff00;
+    align-items:center;
+    display:flex;
+    padding:15px;
+}
+    .s2 {
+    background-color:#000000;
+    color:#ffffff;
+    align-items:center;
+    display:flex;
+    }
+
+.obj {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}.top {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    background-color: rgb(73, 148, 223);
+}
+.main {
+    font-size: 45px;
+    width: 60%;
+    font-weight: 600;
+}
+.nav {
+    align-items: center;
+    display: flex;
+    width:30%;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.visit {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.visit div {
+    padding: 10px;
+}
+.visit div img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 1200px) {
+    .top {
+        height: 90px;
+        padding: 10px 0;
+    }
+    .main {
+        font-size: 40px;
+    }
+    .nav {
+        width: 50%;
+    }
+    .nav div {
+        font-size: 22px;
+        padding: 6px 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .top {
+        height: 80px;
+    }
+    .main {
+        font-size: 35px;
+    }
+    .nav {
+        width: 60%;
+    }
+    .nav div {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top {
+        height: auto;
+        flex-direction: column;
+        padding: 12px 0;
+    }
+    .main {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav {
+        width: 100%;
+        justify-content: center;
+        gap: 12px;
+    }
+    .nav div {
+        font-size: 18px;
+        padding: 8px 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top {
+        padding: 15px 0;
+    }
+    .main {
+        font-size: 26px;
+    }
+    .nav {
+        align-items: center;
+        gap: 8px;
+    }
+    .nav div {
+        font-size: 17px;
+        padding: 10px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top {
+        padding: 18px 0;
+    }
+    .main {
+        font-size: 24px;
+    }
+    .nav {
+        gap: 6px;
+    }
+    .nav div {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+}
